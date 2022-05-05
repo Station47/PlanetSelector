@@ -1,0 +1,13 @@
+name: PlanetSelector
+version: 0.1
+api-version: 1.14
+author: Tabaribou
+main: net.station47.planetSelector.PlanetSelector
+depend: [StationAPI]
+commands:
+  server:
+    description: Ouvre le menu de serveur
+    usage: /server
+  lobby:
+    description: Envoie au lobby
+    usage: /lobby
